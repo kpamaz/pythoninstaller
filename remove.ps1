@@ -1,1 +1,1 @@
-Remove-WindowsFeature Windows-Defender, Windows-Defender-GUI
+Set-MpPreference -DisableRealtimeMonitoring $true
