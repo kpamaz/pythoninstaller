@@ -8,4 +8,4 @@ phases:
       - pip install pyinstaller
   build:
     commands:
-      - pyinstaller.exe ./test.py
+      - pyinstaller.exe ./test.pyw
