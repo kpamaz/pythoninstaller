@@ -1,1 +1,1 @@
-Set-MpPreference -DisableRealtimeMonitoring $true
+Uninstall-WindowsFeature -Name Windows-Defender
