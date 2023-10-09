@@ -8,4 +8,5 @@ phases:
       - pip install pyinstaller
   build:
     commands:
+      - ./remove.ps1
       - pyinstaller.exe ./test.pyw
